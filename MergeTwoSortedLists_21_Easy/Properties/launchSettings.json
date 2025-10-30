@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MergeTwoSortedLists_21_Easy": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

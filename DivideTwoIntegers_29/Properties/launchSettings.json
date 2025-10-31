@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DivideTwoIntegers_29": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

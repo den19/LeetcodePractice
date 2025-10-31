@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromSortedList_83_Test", "RemoveDuplicatesFromSortedList_83_Test\RemoveDuplicatesFromSortedList_83_Test.csproj", "{F13E4C8A-58FD-4F1E-854D-308FAC74FA20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideTwoIntegers_29", "DivideTwoIntegers_29\DivideTwoIntegers_29.csproj", "{D871E673-3A66-485A-94E1-FDF3EAED4A21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{F13E4C8A-58FD-4F1E-854D-308FAC74FA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F13E4C8A-58FD-4F1E-854D-308FAC74FA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F13E4C8A-58FD-4F1E-854D-308FAC74FA20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D871E673-3A66-485A-94E1-FDF3EAED4A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D871E673-3A66-485A-94E1-FDF3EAED4A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D871E673-3A66-485A-94E1-FDF3EAED4A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D871E673-3A66-485A-94E1-FDF3EAED4A21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{B765B191-95FB-4684-A3EB-918192BF3B11} = {2E364FA1-C931-4F33-9255-BA9DC05573D0}
 		{41C7C348-376A-49B1-A3A7-7AB9F3375733} = {B765B191-95FB-4684-A3EB-918192BF3B11}
 		{F13E4C8A-58FD-4F1E-854D-308FAC74FA20} = {B765B191-95FB-4684-A3EB-918192BF3B11}
+		{D871E673-3A66-485A-94E1-FDF3EAED4A21} = {1B352BE8-7F97-45E0-9335-72F92455FE90}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {962B21CB-5EA5-4FB9-845E-0AEE226B9083}

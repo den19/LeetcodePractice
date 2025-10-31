@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SearchInRotatedSortedArray": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

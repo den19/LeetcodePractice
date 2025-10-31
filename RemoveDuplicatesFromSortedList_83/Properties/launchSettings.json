@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "RemoveDuplicatesFromSortedList_83": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

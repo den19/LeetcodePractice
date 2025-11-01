@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PowXN": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

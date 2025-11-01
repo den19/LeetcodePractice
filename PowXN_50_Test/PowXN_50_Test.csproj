@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IntersectionOfTwoLinkedLists_160\IntersectionOfTwoLinkedLists_160.csproj" />
+    <ProjectReference Include="..\PowXN\PowXN_50.csproj" />
   </ItemGroup>
 
   <ItemGroup>

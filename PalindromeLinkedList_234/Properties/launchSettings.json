@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PalindromeLinkedList_234": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

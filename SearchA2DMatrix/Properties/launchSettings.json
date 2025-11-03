@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SearchA2DMatrix": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

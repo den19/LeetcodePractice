@@ -6,7 +6,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <StartupObject>PowXN.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

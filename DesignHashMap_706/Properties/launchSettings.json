@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DesignHashMap_706": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

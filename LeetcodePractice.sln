@@ -112,6 +112,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_LinkedLists_Easy", "1_Lin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignHashMap_706", "DesignHashMap_706\DesignHashMap_706.csproj", "{EBB6E85C-903C-4875-8A4D-31D7EA5FE212}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignHashMap_706_Test", "DesignHashMap_706_Test\DesignHashMap_706_Test.csproj", "{878A669C-F66E-42BB-9F2A-46E7A66D6EBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -234,6 +236,10 @@ Global
 		{EBB6E85C-903C-4875-8A4D-31D7EA5FE212}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBB6E85C-903C-4875-8A4D-31D7EA5FE212}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBB6E85C-903C-4875-8A4D-31D7EA5FE212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878A669C-F66E-42BB-9F2A-46E7A66D6EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878A669C-F66E-42BB-9F2A-46E7A66D6EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878A669C-F66E-42BB-9F2A-46E7A66D6EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878A669C-F66E-42BB-9F2A-46E7A66D6EBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -290,6 +296,7 @@ Global
 		{433B8FDF-ABD3-4F54-BEDE-170804A07A08} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{FE1984BA-E0DD-4883-AFD4-B0A8D0C2F93F} = {433B8FDF-ABD3-4F54-BEDE-170804A07A08}
 		{EBB6E85C-903C-4875-8A4D-31D7EA5FE212} = {FE1984BA-E0DD-4883-AFD4-B0A8D0C2F93F}
+		{878A669C-F66E-42BB-9F2A-46E7A66D6EBC} = {FE1984BA-E0DD-4883-AFD4-B0A8D0C2F93F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {962B21CB-5EA5-4FB9-845E-0AEE226B9083}

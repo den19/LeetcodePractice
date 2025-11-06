@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FindPeakElement_162": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

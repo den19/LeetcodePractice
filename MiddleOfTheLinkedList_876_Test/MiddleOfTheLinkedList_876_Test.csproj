@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FindMinimumInRotatedSortedArray_153\FindMinimumInRotatedSortedArray2_153.csproj" />
+    <ProjectReference Include="..\MiddleOfTheLinkedList_876\MiddleOfTheLinkedList_876.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MiddleOfTheLinkedList_876": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

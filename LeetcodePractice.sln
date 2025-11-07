@@ -137,6 +137,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07112025", "07112025", "{022D29A5-34D2-4DF7-92CF-E9AA3FDCD204}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_LinkedList_Easy", "1_LinkedList_Easy", "{7664B138-BE62-40BA-ACE3-CFEAB9C2C0D5}"
+	ProjectSection(SolutionItems) = preProject
+		ConvertBinaryNumberInALinkedListToInteger_1290_Effective.sh = ConvertBinaryNumberInALinkedListToInteger_1290_Effective.sh
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertBinaryNumberInALinkedListToInteger_1290", "ConvertBinaryNumberInALinkedListToInteger\ConvertBinaryNumberInALinkedListToInteger_1290.csproj", "{37BC4C2C-5B26-474D-9A5E-B405BB19C558}"
 EndProject

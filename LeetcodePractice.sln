@@ -138,7 +138,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07112025", "07112025", "{02
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_LinkedList_Easy", "1_LinkedList_Easy", "{7664B138-BE62-40BA-ACE3-CFEAB9C2C0D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertBinaryNumberInALinkedListToInteger", "ConvertBinaryNumberInALinkedListToInteger\ConvertBinaryNumberInALinkedListToInteger.csproj", "{37BC4C2C-5B26-474D-9A5E-B405BB19C558}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertBinaryNumberInALinkedListToInteger_1290", "ConvertBinaryNumberInALinkedListToInteger\ConvertBinaryNumberInALinkedListToInteger_1290.csproj", "{37BC4C2C-5B26-474D-9A5E-B405BB19C558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertBinaryNumberInALinkedListToInteger_1290_Test", "ConvertBinaryNumberInALinkedListToInteger_1290_Test\ConvertBinaryNumberInALinkedListToInteger_1290_Test.csproj", "{171C7B6D-CB92-4FCD-978F-6F3386B84AA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -294,6 +296,10 @@ Global
 		{37BC4C2C-5B26-474D-9A5E-B405BB19C558}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37BC4C2C-5B26-474D-9A5E-B405BB19C558}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37BC4C2C-5B26-474D-9A5E-B405BB19C558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171C7B6D-CB92-4FCD-978F-6F3386B84AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171C7B6D-CB92-4FCD-978F-6F3386B84AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171C7B6D-CB92-4FCD-978F-6F3386B84AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171C7B6D-CB92-4FCD-978F-6F3386B84AA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -364,6 +370,7 @@ Global
 		{022D29A5-34D2-4DF7-92CF-E9AA3FDCD204} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{7664B138-BE62-40BA-ACE3-CFEAB9C2C0D5} = {022D29A5-34D2-4DF7-92CF-E9AA3FDCD204}
 		{37BC4C2C-5B26-474D-9A5E-B405BB19C558} = {7664B138-BE62-40BA-ACE3-CFEAB9C2C0D5}
+		{171C7B6D-CB92-4FCD-978F-6F3386B84AA3} = {7664B138-BE62-40BA-ACE3-CFEAB9C2C0D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {962B21CB-5EA5-4FB9-845E-0AEE226B9083}

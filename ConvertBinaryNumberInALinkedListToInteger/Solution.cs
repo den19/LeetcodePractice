@@ -37,5 +37,26 @@
             // Convert binary string to integer
             return Convert.ToInt32(binaryString, 2);
         }
+
+        /// <summary>
+        /// Effective Memory solution O(1)
+        /// </summary>
+        /// <param name="head"></param>
+        /// <returns></returns>
+        public int GetDecimalValueEffective(ListNode head)
+        {
+            int result = 0;
+
+            while (head != null)
+            {
+                // Multiply previous result by 2 (shift left)
+                // and add new bit
+                result = (result << 1) | head.val;
+
+                head = head.next;
+            }
+
+            return result;
+        }
     }
 }

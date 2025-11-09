@@ -168,6 +168,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_LinkedList_Easy", "1_Link
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteNNodesAfterMNodesOfALinkedList_1474", "DeleteNNodesAfterMNodesOfALinkedList_1474\DeleteNNodesAfterMNodesOfALinkedList_1474.csproj", "{ABA4D7B8-4398-444C-9781-81F9AEC832CC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DeleteNNodesAfterMNodesOfALinkedList_1474_other_lang", "DeleteNNodesAfterMNodesOfALinkedList_1474_other_lang", "{74D7D191-035F-46B3-9980-CA5334F9A762}"
+	ProjectSection(SolutionItems) = preProject
+		DeleteNNodesAfterMNodesOfALinkedList_1474.go = DeleteNNodesAfterMNodesOfALinkedList_1474.go
+		DeleteNNodesAfterMNodesOfALinkedList_1474.py = DeleteNNodesAfterMNodesOfALinkedList_1474.py
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeleteNNodesAfterMNodesOfALinkedList_1474_Test", "DeleteNNodesAfterMNodesOfALinkedList_1474_Test\DeleteNNodesAfterMNodesOfALinkedList_1474_Test.csproj", "{B74C6888-D2BF-49F2-BC9B-8DDFF556886E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -338,6 +346,10 @@ Global
 		{ABA4D7B8-4398-444C-9781-81F9AEC832CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABA4D7B8-4398-444C-9781-81F9AEC832CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABA4D7B8-4398-444C-9781-81F9AEC832CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74C6888-D2BF-49F2-BC9B-8DDFF556886E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74C6888-D2BF-49F2-BC9B-8DDFF556886E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74C6888-D2BF-49F2-BC9B-8DDFF556886E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74C6888-D2BF-49F2-BC9B-8DDFF556886E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -417,6 +429,8 @@ Global
 		{CDFACEB7-3D75-4B55-A6DD-CFCEB05BD543} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{BDE00A0B-D150-4A78-BB23-FA2AFDBAD443} = {CDFACEB7-3D75-4B55-A6DD-CFCEB05BD543}
 		{ABA4D7B8-4398-444C-9781-81F9AEC832CC} = {BDE00A0B-D150-4A78-BB23-FA2AFDBAD443}
+		{74D7D191-035F-46B3-9980-CA5334F9A762} = {BDE00A0B-D150-4A78-BB23-FA2AFDBAD443}
+		{B74C6888-D2BF-49F2-BC9B-8DDFF556886E} = {BDE00A0B-D150-4A78-BB23-FA2AFDBAD443}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {962B21CB-5EA5-4FB9-845E-0AEE226B9083}

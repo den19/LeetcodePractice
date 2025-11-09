@@ -145,6 +145,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertBinaryNumberInALinke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertBinaryNumberInALinkedListToInteger_1290_Test", "ConvertBinaryNumberInALinkedListToInteger_1290_Test\ConvertBinaryNumberInALinkedListToInteger_1290_Test.csproj", "{171C7B6D-CB92-4FCD-978F-6F3386B84AA3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08072025", "08072025", "{9FF30B02-7A11-4151-9F36-7B343BF32305}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_BinarySearch_Medium", "2_BinarySearch_Medium", "{3D9BF77B-8A09-416B-AC04-C371401C3CC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumSizeSubarraySum_209", "MinimumSizeSubarraySum_209\MinimumSizeSubarraySum_209.csproj", "{E4A1EE6F-79B4-42C2-9006-36E37EE3FEA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MinimumSizeSubarray_Sum_209_Other_Langs", "MinimumSizeSubarray_Sum_209_Other_Langs", "{E676B27E-DCFE-40AB-91B2-E179B97238A1}"
+	ProjectSection(SolutionItems) = preProject
+		minSubArrayLenBruteForce.go = minSubArrayLenBruteForce.go
+		minSubArrayLenBruteForce.py = minSubArrayLenBruteForce.py
+		minSubArrayLenSlidingWindow.go = minSubArrayLenSlidingWindow.go
+		minSubArrayLenSlidingWindow.py = minSubArrayLenSlidingWindow.py
+		minSubArrayLenSlidingWindow.sh = minSubArrayLenSlidingWindow.sh
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumSizeSubarraySum_209_Test", "MinimumSizeSubarraySim_209_Test\MinimumSizeSubarraySum_209_Test.csproj", "{07EED792-9558-4F42-A12D-6CF99ABB7221}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -303,6 +320,14 @@ Global
 		{171C7B6D-CB92-4FCD-978F-6F3386B84AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{171C7B6D-CB92-4FCD-978F-6F3386B84AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{171C7B6D-CB92-4FCD-978F-6F3386B84AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A1EE6F-79B4-42C2-9006-36E37EE3FEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A1EE6F-79B4-42C2-9006-36E37EE3FEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A1EE6F-79B4-42C2-9006-36E37EE3FEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A1EE6F-79B4-42C2-9006-36E37EE3FEA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07EED792-9558-4F42-A12D-6CF99ABB7221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07EED792-9558-4F42-A12D-6CF99ABB7221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07EED792-9558-4F42-A12D-6CF99ABB7221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07EED792-9558-4F42-A12D-6CF99ABB7221}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -374,6 +399,11 @@ Global
 		{7664B138-BE62-40BA-ACE3-CFEAB9C2C0D5} = {022D29A5-34D2-4DF7-92CF-E9AA3FDCD204}
 		{37BC4C2C-5B26-474D-9A5E-B405BB19C558} = {7664B138-BE62-40BA-ACE3-CFEAB9C2C0D5}
 		{171C7B6D-CB92-4FCD-978F-6F3386B84AA3} = {7664B138-BE62-40BA-ACE3-CFEAB9C2C0D5}
+		{9FF30B02-7A11-4151-9F36-7B343BF32305} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3D9BF77B-8A09-416B-AC04-C371401C3CC5} = {9FF30B02-7A11-4151-9F36-7B343BF32305}
+		{E4A1EE6F-79B4-42C2-9006-36E37EE3FEA1} = {3D9BF77B-8A09-416B-AC04-C371401C3CC5}
+		{E676B27E-DCFE-40AB-91B2-E179B97238A1} = {3D9BF77B-8A09-416B-AC04-C371401C3CC5}
+		{07EED792-9558-4F42-A12D-6CF99ABB7221} = {3D9BF77B-8A09-416B-AC04-C371401C3CC5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {962B21CB-5EA5-4FB9-845E-0AEE226B9083}

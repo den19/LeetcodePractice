@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MinimumSizeSubarraySum_209": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

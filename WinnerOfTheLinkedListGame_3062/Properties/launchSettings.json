@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WinnerOfTheLinkedListGame_3062": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -63,6 +63,13 @@
             return dummy.next;
         }
 
+        /// <summary>
+        /// Optimized HashMap Approach
+        /// O(N)
+        /// O(N)
+        /// </summary>
+        /// <param name="head"></param>
+        /// <returns></returns>
         public ListNode FrequencyOptimized(ListNode head)
         {
             if (head == null) return null;
@@ -87,7 +94,52 @@
 
             // Second Pass: create new list maintaining order of te occurrence
             var dummy = new ListNode();
+            var newCurrent = dummy;
+            var processed = new HashSet<int>();
 
+            current = head;
+            while (current != null)
+            {
+                if (!processed.Contains(current.val))
+                {
+                    newCurrent.next = new ListNode(frequencyMap[current.val]);
+                    newCurrent = newCurrent.next;
+                    processed.Add(current.val);
+                }
+                current = current.next;
+            }
+
+            return dummy.next;
+        }
+
+        public ListNode FrequencyMostEfficient(ListNode head)
+        {
+            if (head == null) return null;
+
+            var frequencyMap = new Dictionary<int, int>();
+            var order = new List<int>();
+            var current = head;
+
+            while (current != null)
+            {
+                if(!frequencyMap.ContainsKey(current.val))
+                {
+                    frequencyMap[current.val] = 0;
+                    order.Add(current.val);
+                }
+
+                frequencyMap[current.val]++;
+                current = current.next;
+            }
+
+            var dummy = new ListNode(0);
+            var newCurrent = dummy;
+
+            foreach(int val in order)
+            {
+                newCurrent.next = new ListNode(frequencyMap[val]);
+                newCurrent = newCurrent.next;
+            }
 
             return dummy.next;
         }

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "LinkedListFrequency_3063": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -48,6 +48,7 @@
                         alreadyProcessed = true;
                         break;
                     }
+                    check = check.next;
                 }
 
                 // Add to result if result occurrance

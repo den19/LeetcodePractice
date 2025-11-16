@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ConvertDoublyLinkedListToArrayI_3263": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

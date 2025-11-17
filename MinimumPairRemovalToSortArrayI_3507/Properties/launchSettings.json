@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MinimumPairRemovalToSortArrayI_3507": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

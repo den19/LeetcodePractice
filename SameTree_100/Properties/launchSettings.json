@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SameTree_100": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

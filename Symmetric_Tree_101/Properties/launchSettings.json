@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Symmetric_Tree_101": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MaximumDepthOfBinaryTree_104": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

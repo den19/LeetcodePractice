@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SwapNodesInPairs_24": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "RotateList_61": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

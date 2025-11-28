@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "RemoveDuplicatesFromLinkedList2_82": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

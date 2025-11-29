@@ -268,6 +268,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromLinkedL
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesFromLinkedList2_82_Test", "RemoveDuplicatesFromLinkedList2_82_Test\RemoveDuplicatesFromLinkedList2_82_Test.csproj", "{9CF0FF03-F9C0-489B-AB69-F027107B21FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateList_61_Test", "RotateList_61_Test\RotateList_61_Test.csproj", "{D3A2B759-783D-47C4-869E-953E4550CA77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -530,6 +532,10 @@ Global
 		{9CF0FF03-F9C0-489B-AB69-F027107B21FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CF0FF03-F9C0-489B-AB69-F027107B21FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CF0FF03-F9C0-489B-AB69-F027107B21FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A2B759-783D-47C4-869E-953E4550CA77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A2B759-783D-47C4-869E-953E4550CA77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A2B759-783D-47C4-869E-953E4550CA77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A2B759-783D-47C4-869E-953E4550CA77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -656,6 +662,7 @@ Global
 		{7A770DA5-0DFE-448D-B3C6-D60371498509} = {80B82436-47A6-404F-A92B-DABA9DAD6365}
 		{4A4E0BE1-04B4-479F-8568-E6A4A8DBE6F3} = {7A770DA5-0DFE-448D-B3C6-D60371498509}
 		{9CF0FF03-F9C0-489B-AB69-F027107B21FE} = {7A770DA5-0DFE-448D-B3C6-D60371498509}
+		{D3A2B759-783D-47C4-869E-953E4550CA77} = {9584A9F3-985B-4F62-AC1D-93F0F0FEC1FA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {962B21CB-5EA5-4FB9-845E-0AEE226B9083}

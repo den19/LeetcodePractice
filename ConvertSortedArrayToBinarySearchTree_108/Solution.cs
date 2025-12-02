@@ -55,5 +55,40 @@ namespace ConvertSortedArrayToBinarySearchTree_108
 
             return node;
         }
+
+        // Вспомогательный метод для проверки, является ли дерево BST
+        public bool IsValidBST(TreeNode root)
+        {
+            return IsValidBST(root, long.MinValue, long.MaxValue);
+        }
+
+        private bool IsValidBST(TreeNode node, long min, long max)
+        {
+            if (node == null) return true;
+            if (node.val <= min || node.val >= max) return false;
+            return IsValidBST(node.left, min, node.val) &&
+                   IsValidBST(node.right, node.val, max);
+        }
+
+        // Вспомогательный метод для проверки сбалансированности дерева
+        public bool IsBalanced(TreeNode root)
+        {
+            return CheckHeight(root) != -1;
+        }
+
+        private int CheckHeight(TreeNode node)
+        {
+            if (node == null) return 0;
+
+            int leftHeight = CheckHeight(node.left);
+            if (leftHeight == -1) return -1;
+
+            int rightHeight = CheckHeight(node.right);
+            if (rightHeight == -1) return -1;
+
+            if (Math.Abs(leftHeight - rightHeight) > 1) return -1;
+
+            return Math.Max(leftHeight, rightHeight) + 1;
+        }
     }
 }

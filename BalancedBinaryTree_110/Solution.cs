@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BalancedBinaryTree_110
+﻿namespace BalancedBinaryTree_110
 {
     public class TreeNode
     {
@@ -33,12 +27,42 @@ namespace BalancedBinaryTree_110
         {
             if (root == null) return true;
 
-            // 
+            // Вычисляем высоты левого и правого поддеревьев
+            int leftHeight = GetHeight(root.left);
+            int rightHeight = GetHeight(root.right);
+
+            // Проверяем условие сбалансированности
+            return Math.Abs(leftHeight - rightHeight) <= 1
+                && IsBalanced(root.right)
+                && IsBalanced(root.left);
         }
     }
 
     public class SolutionDFSOptimal
     {
+        public bool IsBalanced(TreeNode root)
+        {
+            return CheckBalance(root) != -1;
+        }
 
+        // Возвращает высоту дерева или -1, если дерево несбалансировано
+        private int CheckBalance(TreeNode node)
+        {
+            if (node == null) return 0;
+
+            // Рекурсивно проверяем левое поддерево
+            int leftHeight = CheckBalance(node.left);
+            if (leftHeight == -1) return -1; // Левое поддерево несбалансировано
+
+            // Рекурсивно проверяем правое поддерево
+            int rightHeight = CheckBalance(node.right);
+            if (rightHeight == -1) return -1; // Правое поддерево несбалансировано
+
+            // Проверяем баланс текущего узла
+            if (Math.Abs(leftHeight - rightHeight) > 1) return -1;
+
+            // Возвращаем высоту текущего поддерева
+            return Math.Max(leftHeight, rightHeight) + 1;
+        }
     }
 }

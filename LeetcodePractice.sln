@@ -288,6 +288,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancedBinaryTree_110", "B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_Tree_Easy", "1_Tree_Easy", "{CC73724C-FAE4-498E-846F-7275486329C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BalancedBinaryTree_110_Tests", "BalancedBinaryTree_110_Tests\BalancedBinaryTree_110_Tests.csproj", "{34F7A8AE-B043-468D-BC51-504EBE00F992}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -570,6 +572,10 @@ Global
 		{6D11DA4B-B172-42D0-B547-85DF7E76B752}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D11DA4B-B172-42D0-B547-85DF7E76B752}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D11DA4B-B172-42D0-B547-85DF7E76B752}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F7A8AE-B043-468D-BC51-504EBE00F992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F7A8AE-B043-468D-BC51-504EBE00F992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F7A8AE-B043-468D-BC51-504EBE00F992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F7A8AE-B043-468D-BC51-504EBE00F992}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -706,6 +712,7 @@ Global
 		{0BC68519-1F0A-47C7-AC49-5CB5FFFD0932} = {EB4B71B2-4F5E-43A3-A1D9-5ADB213BDF47}
 		{6D11DA4B-B172-42D0-B547-85DF7E76B752} = {CC73724C-FAE4-498E-846F-7275486329C9}
 		{CC73724C-FAE4-498E-846F-7275486329C9} = {0BC68519-1F0A-47C7-AC49-5CB5FFFD0932}
+		{34F7A8AE-B043-468D-BC51-504EBE00F992} = {CC73724C-FAE4-498E-846F-7275486329C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {962B21CB-5EA5-4FB9-845E-0AEE226B9083}

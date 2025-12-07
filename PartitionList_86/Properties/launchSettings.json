@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PartitionList_86": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

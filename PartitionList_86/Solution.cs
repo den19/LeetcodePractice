@@ -63,4 +63,50 @@ namespace PartitionList_86
             return dummy.next;
         }
     }
+
+    public class SolutionOptimal
+    {
+        /// <summary>
+        /// Optimal solution
+        /// O(n)
+        /// O(1)
+        /// </summary>
+        /// <param name="head"></param>
+        /// <param name="x"></param>
+        /// <returns></returns>
+        public ListNode Partition(ListNode head, int x)
+        {
+            if (head == null) return null;
+
+            // Два фиктивных узла для двух списков
+            var beforeDummy = new ListNode(0);
+            var afterDummy = new ListNode(0);
+
+            // Указатели на текущие узлы в каждом списке
+            ListNode before = beforeDummy;
+            ListNode after = afterDummy;
+
+            ListNode current = head;
+            while (current != null)
+            {
+                if (current.val < x)
+                {
+                    before.next = current;
+                    before = before.next;
+                }
+                else
+                {
+                    after.next = current;
+                    after = after.next;
+                }
+                current = current.next;
+            }
+
+            // Объединяем два списка
+            after.next = null; // Важно - обрываем связь с исходным списком
+            before.next = afterDummy.next;
+
+            return beforeDummy.next;
+        }
+    }
 }

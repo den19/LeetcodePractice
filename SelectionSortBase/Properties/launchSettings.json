@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SelectionSortBase": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
